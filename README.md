@@ -14,9 +14,8 @@ Khách hàng:
 Admin:
 -	Quản lý, thêm, sửa, xóa sách
 
-
--	Mô hình ER:
+# Mô hình ER:
 -	![image](https://user-images.githubusercontent.com/49164540/114424551-6f784800-9be2-11eb-9739-529d2b8a3c99.png)
--	Thiết kế database:
+# Thiết kế database:
 -	![Uploading image.png…]()
 
