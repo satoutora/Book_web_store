@@ -1,0 +1,40 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    {% include "../part_of_web/head.html" %}
+    <body>
+        {% include "../part_of_web/header.html" %}       
+        {% block content %}
+
+        {% endblock %}
+        {% include "../part_of_web/footer.html" %} 
+        <!-- Back to Top -->
+        <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="{% static 'lib/easing/easing.min.js' %}"></script>
+        <script src="{% static 'lib/slick/slick.min.js' %}"></script>
+        
+        <!-- Template Javascript -->
+        <script src="{% static 'js/main.js' %}"></script>
+
+        <script>
+            $(document).ready(function(){
+
+            });
+
+            function ThemVaoGioHang(id){
+                sl = $("#soluong").val();
+                if(!sl) sl = 1;
+                //alert(id);
+                $.post('/body/themvaogiohang', {'id': id, 'sl': sl, 'csrfmiddlewaretoken':'{{csrf_token}}'},
+                    function(data){
+                        alert("Mua thanh cong");
+                   });
+            }
+        </script>
+        
+    </body>
+</html>
