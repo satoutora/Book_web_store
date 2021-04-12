@@ -3,14 +3,15 @@
  
 # Mô tả: là trang web mua, bán sách
 Đối tượng khách hàng:
-•	Những người có nhu cầu mua sách
-•	Chủ website quản lý và bán sách
+- Những người có nhu cầu mua sách
+-	Chủ website quản lý và bán sách
+
 Khách hàng:
-•	Tìm kiếm sách theo tên, thể loại, tác giả
-•	Xem thông tin về sách
-•	Đặt mua sách
+- Tìm kiếm sách theo tên, thể loại, tác giả
+-	Xem thông tin về sách
+-	Đặt mua sách
 Admin:
-•	Quản lý, thêm, sửa, xóa sách
+-	Quản lý, thêm, sửa, xóa sách
 
 
 -	Mô hình ER:
