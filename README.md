@@ -17,5 +17,6 @@ Admin:
 # Mô hình ER:
 -	![image](https://user-images.githubusercontent.com/49164540/114424551-6f784800-9be2-11eb-9739-529d2b8a3c99.png)
 # Thiết kế database:
--	![Uploading image.png…]()
+![image](https://user-images.githubusercontent.com/49164540/114424853-b5cda700-9be2-11eb-9517-8923fd8c5f54.png)
+
 
