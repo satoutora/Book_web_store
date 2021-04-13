@@ -1,6 +1,7 @@
 # Book_web_store
  Website bán sách
- ngôn ngữ: python, django, html, css, js
+ 
+ ngôn ngữ: python, django, html, css, js, mysql
  
 # Mô tả: là trang web mua, bán sách
 Đối tượng khách hàng:
