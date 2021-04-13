@@ -27,10 +27,12 @@ Chạy chương trình:
 2. import database vào MYSQL, chỉnh sửa rootname và mật khẩu MYSQL trong file __pycache__/settings.py phần DATABASE cho phù hợp
 3. gõ lệnh:
 >python manage.py makemigrations
+>
 >python manage.py migrate
- để kết nối với database
+>
+->để kết nối với database
 4. gõ lệnh:
 >python manage.py runserver 
- để chạy sever ảo 
+->để chạy sever ảo 
 
 
