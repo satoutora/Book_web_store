@@ -31,8 +31,10 @@ Chạy chương trình:
 >python manage.py migrate
 >
 ->để kết nối với database
+
 4. gõ lệnh:
 >python manage.py runserver 
+>
 ->để chạy sever ảo 
 
 
